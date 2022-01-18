@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <title>Network Security</title>
+
+    <style>
+        #gradient {
+            height: 200px;
+            background-color: black;
+            background-image: linear-gradient(red, yellow);
+        }
+    </style>
+</head>
+  <body>
+    <div class="card text-center">
+    <div class="card text-white bg-secondary ">
+      
+  <div class="card-header">Encipher, decipher flask based web app</div>
+  <div class="card-body">
+    <h5 class="card-title">Submited by: Swati Swagatika Malik(18075060) </h5>
+    
+  </div>
+    <br>
+    <br>
+
+  <div class="card-header">\
+    <br>
+    <br>
+    <br>
+      <br>
+      <div class="col">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title" style="color: green;">Enter Text</h5>
+        <div class="form-group">
+    
+   
+  </div>
+        <form action="/" method="POST">
+          <input type="text" value="{{message}}" class="form-control" style="color: green;" name="plaintext" placeholder="Enter text" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <br>
+          <input type="submit"  value="Encipher" class="btn btn-primary">Encipher</button>
+        </form>
+        
+  </div>
+  </div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title" style="color: green;">Encrypted Text</h5>
+        <div class="form-group">
+    
+   
+  </div>
+    <form action="/decrypt" , method="POST">
+        <input type="text" class="form-control" name="decipher" value="{{encoded}}"  id="exampleFormControlTextarea1" rows="3"></textarea>
+        <br>
+        <input type="submit" value="Decipher" class="btn btn-danger">Decipher</button>
+    </form>
+  
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+    <br>
+    <br>
+</div>
+</div>
+</div>    
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
